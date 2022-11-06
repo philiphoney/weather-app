@@ -1,0 +1,70 @@
+body {
+  margin: 0px;
+  background-color: rgb(254, 254, 254);
+}
+
+.nav-bar {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 50%;
+  border-radius: 10px;
+  background-color: #e5e5e5;
+  border: 3px solid #f5f5dc00;
+  outline: none;
+}
+
+
+#button {
+   -webkit-transition: 1s;
+   transition: 1s;
+   text-decoration: none;
+   background-color: #e5e5e5;
+   border-radius: 10px;
+   padding:5px;
+   color: #939393;
+   margin-left: 10px;
+}
+
+#button:hover {
+  background-color: #b7dbff;
+}
+
+input[type=text]:focus {
+  border: 3px solid #b7dbff;
+}
+
+#weather-view {
+  justify-content: center;
+}
+
+.city {
+  padding-top: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.temp {
+  padding-top: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+} 
+
+
+.th {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.th div {
+  padding: 10px;
+}
+
+.sky {
+  text-align: center;
+}
